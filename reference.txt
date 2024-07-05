@@ -1,0 +1,8 @@
+http://gilt2.kussmaul.org:4200/team-activity/edit/6684511cfd69a8807ca563f2	UTU: Binary for UTU Practice
+http://gilt2.kussmaul.org:4200/team-activity/edit/6684653fabe5a217a49a4957	UTU: Binary for UTU AM Yellow
+http://gilt2.kussmaul.org:4200/team-activity/edit/65ae996809e52ce0e39ff467	UTU: Binary for UTU AM Orange
+http://gilt2.kussmaul.org:4200/team-activity/edit/65ae994d09e52ce0e39ff45a	UTU: Binary for UTU AM Purple
+http://gilt2.kussmaul.org:4200/team-activity/edit/65ae995d09e52ce0e39ff462	UTU: Binary for UTU AM Red
+http://gilt2.kussmaul.org:4200/team-activity/edit/65ae994d09e52ce0e39ff45d	UTU: Binary for UTU AM Yellow
+http://gilt2.kussmaul.org:4200/team-activity/edit/65ae994d09e52ce0e39ff45b	UTU: Binary for UTU AM Blue
+http://gilt2.kussmaul.org:4200/team-activity/edit/65ae994d09e52ce0e39ff45c	UTU: Binary for UTU AM Green
