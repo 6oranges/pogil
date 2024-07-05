@@ -62,6 +62,10 @@ app.get('/activities/:activityId', async (req, res) => {
         });
     })
     const [activity, teams] = await Promise.all([activityPromise, teamsPromise])
+    if (!activity) {
+        res.status(404).send("activity not found");
+        return
+    }
     res.send({
         activity: activity.activity_name, teams: teams.map(team => ({
             id: team.id,
