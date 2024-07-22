@@ -10,7 +10,7 @@ if (activityId) {
     const activityTeamsList = document.getElementById('teams');
     function updateUI() {
         const taken = parseInt(localStorage.getItem('taken-' + activityId));
-        fetch(`http://localhost:8080/activities/${activityId}`)
+        fetch(`/activities/${activityId}`)
             .then(res => res.json())
             .then(data => {
                 activityTeamsList.innerHTML = '';
@@ -36,14 +36,14 @@ if (activityId) {
                         button.textContent = `Take ${team.name}`;
                         button.addEventListener('click', async () => {
                             localStorage.setItem('taken-' + activityId, team.id);
-                            const result = await fetch("http://localhost:8080/take_team", {
+                            const result = await fetch("/take_team", {
                                 method: "POST",
                                 body: JSON.stringify({ activityId, id: team.id }),
                                 headers: {
                                     "Content-Type": "application/json",
                                 },
                             });
-                            if (result.status!==200) {
+                            if (result.status !== 200) {
                                 return;
                             }
                             location.href = team.editURL;
